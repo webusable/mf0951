@@ -17,6 +17,9 @@
     /* Logo olímpico 1020 x 495 pixeles */
     --url-logo-index: url('../svg/Olympic_Rings_clip_art.svg');
     --url-logo-header: url('../../../svg/Olympic_Rings_clip_art.svg');
+
+    /* ratio del logo 1020/495 */
+    /* ancho del logo = --height-header * ratio */
     --wlogo-header: 7.21rem;
     /* Efecto al hover */
     --logo-filter--hover: hue-rotate(180deg);

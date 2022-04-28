@@ -75,6 +75,47 @@
     background-repeat: no-repeat;
 }
 
+/* Estilos iconos sociales */
+
+section.sociales ul li {
+    display: inline-block;
+}
+
+.social {
+    /* background-image: url('../../../svg/social/icon-facebook.svg'); */
+    margin: 0;
+    /* background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; */
+
+}
+
+.social svg {
+    width: 5em;
+    height: 5em;
+    fill: white;
+}
+
+pruebita:hover {
+    -webkit-animation-duration: calc(1s * 0.75);
+    animation-duration: calc(1s * 0.75);
+    -webkit-animation-duration: calc(var(--animate-duration) * 0.75);
+    animation-duration: calc(var(--animate-duration) * 0.75);
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+
+}
+
+
+article.animaciones ul li {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    font-weight: bold;
+    font-size: x-large;
+    color: steelblue;
+}
+
 header.portada {
     position: relative;
     width: 100%;

@@ -77,19 +77,133 @@
 
 /* Estilos iconos sociales */
 
+ul.sociales {
+    padding: 0;
+}
+
+ul.sociales li,
 section.sociales ul li {
     display: inline-block;
 }
 
-.social {
+ul.sociales li a {
+    width: 3em;
+    height: 3em;
+    display: block;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+figure.social {
     margin: 0;
 }
 
-.social svg {
-    width: 2em;
-    height: 5em;
+ul.sociales figure.social svg {
+    width: 100%;
+    height: 100%;
     fill: white;
 }
+
+
+
+
+/* Frontal y hover Facebook */
+
+ul.sociales li.facebook a {
+    background-color: #3B5998;
+}
+
+ul.sociales li.facebook a:hover svg {
+    fill: #3B5998;
+}
+
+/* Frontal y hover Twitter */
+
+ul.sociales li.twitter a {
+    background-color: #00ACEE;
+}
+
+ul.sociales li.twitter a:hover svg {
+    fill: #00ACEE;
+}
+
+/* Frontal y hover Pinterest */
+
+ul.sociales li.pinterest a {
+    background-color: #BD081C;
+}
+
+ul.sociales li.pinterest a:hover svg {
+    fill: #BD081C;
+}
+
+/* Frontal y hover LinkedIn */
+
+ul.sociales li.linkedin a {
+    background-color: #0077B5;
+}
+
+ul.sociales li.linkedin a:hover svg {
+    fill: #0077B5;
+}
+
+/* Frontal y hover GitHub */
+
+ul.sociales li.github a {
+    background-color: #000000;
+}
+
+ul.sociales li.github a:hover svg {
+    fill: #000000;
+}
+
+/* Frontal y hover Google+ */
+
+ul.sociales li.googleplus a {
+    background-color: #D34836;
+}
+
+ul.sociales li.googleplus a:hover svg {
+    fill: #D34836;
+}
+
+
+
+
+/* Para todos */
+ul.sociales li a:hover {
+    background-color: transparent;
+}
+
+
+/* figure.facebook svg {
+    fill: #3B5998;
+}
+
+figure.facebook:hover svg {
+} */
+
+/* figure.twitter svg path {
+    fill: #00ACEE;
+}
+
+figure.twitter:hover svg {
+    background-color: #00ACEE;
+}
+figure.twitter:hover svg path {
+    fill: white;
+} */
+
+footer .social svg {
+    fill: white;
+}
+
+section.sociales figure.social svg {
+    width: 2em;
+    height: 2em;
+}
+
+
 
 /* Estilos animate.css */
 

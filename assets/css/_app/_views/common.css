@@ -246,18 +246,18 @@ header.portada h2 {
     color: white;
 }
 
-body.nocturno {
+main.nocturno {
     background-color: black;
     color: white;
 }
 
-body.nocturno a {
+main.nocturno a {
     color: yellow;
 }
 
-body.nocturno a:target,
-body.nocturno a:focus,
-body.nocturno a:hover {
+main.nocturno a:target,
+main.nocturno a:focus,
+main.nocturno a:hover {
     color: white;
     border-bottom: 1px solid white;
 }
